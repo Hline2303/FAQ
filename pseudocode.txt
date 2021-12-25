@@ -1,0 +1,6 @@
+Au clic (event) sur une question (élément)
+la réponse correspondante (élément) apparaît (action)
+
+Au clic suivant (event) sur la même question (élément)
+la réponse correspondante (élément) dispparaît (action)
+

@@ -21,24 +21,34 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #1e2337;
+    background-color: rgb(236, 235, 235);
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 3rem;
+    color: #1e2337;
+    padding: 20px;
 }
 
 .question {
+    width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid rgb(236, 235, 235);
+    background-color: #1e2337;
+
 }
 
 .reponse {
-    color: #777;
-    background-color: #eee;
+    color: #1e2337;
+    background-color: rgb(236, 235, 235);
     padding: 3rem;
     display: none;
+    border: 1px solid #1e2337;
+}
+
+.visible {
+    display: block;
 }
